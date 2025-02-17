@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { createSubcategory } from "../../services/subcategoryServices";
+
 import Header from "../../components/Dashboard/Header";
 import Sidebar from "../../components/Sidebar/Sidebar";
 
@@ -19,7 +19,7 @@ export default function AddSubCategoriaPage() {
     setLoading(true);
 
     try {
-      await createSubcategory({ id, nombre, categoria });
+
       alert("Subcategoría agregada correctamente");
       navigate("/categorizacion/subcategoria"); // Redirigir a la tabla
     } catch (error) {

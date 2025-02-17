@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "../../components/Dashboard/Header";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import { addCategory } from "../../services/categoryServices";
+
 import { useNavigate } from "react-router-dom";
 
 export default function AddCategoryPage() {
@@ -28,7 +28,7 @@ export default function AddCategoryPage() {
     }
 
     try {
-      await addCategory({ id: Number(formData.id), nombre: formData.nombre });
+
       alert("Categoría agregada con éxito");
       navigate("/categorizacion/categoria");
     } catch (err: unknown) {

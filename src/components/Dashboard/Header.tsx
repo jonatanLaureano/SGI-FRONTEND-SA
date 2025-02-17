@@ -9,6 +9,7 @@ const Header = () => {
 
   const pageTitles: Record<string, string> = {
     "/": "Dashboard",
+    "/dashboard": "Dashboard",
     "/locales": "Locales",
     "/inventario": "Inventario",
     "/ventas": "Ventas",
