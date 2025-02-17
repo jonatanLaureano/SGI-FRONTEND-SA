@@ -1,0 +1,103 @@
+const inventario = [
+    {
+      nombre: "Laptop Dell",
+      descripcion: "Laptop Ultraligera 13”",
+      categoria: "Electrónica",
+      tipo: "Hardware",
+      precio: "$1,200.00",
+    },
+    {
+      nombre: "Monitor Samsung 24”",
+      descripcion: "Monitor Full HD",
+      categoria: "Electrónica",
+      tipo: "Hardware",
+      precio: "$180.00",
+    },
+    {
+      nombre: "Mouse Gamer",
+      descripcion: "Mouse Razer Gamer",
+      categoria: "Electrónica",
+      tipo: "Hardware",
+      precio: "$14.50",
+    },
+    {
+      nombre: "Webcam Asus",
+      descripcion: "Webcam Asus",
+      categoria: "Electrónica",
+      tipo: "Hardware",
+      precio: "$50.90",
+    },
+    {
+      nombre: "Cafetera Nespresso",
+      descripcion: "Cafetera Automática",
+      categoria: "Electrodomésticos",
+      tipo: "Producto",
+      precio: "$120.00",
+    },
+    {
+      nombre: "Software Office",
+      descripcion: "Suscripción Anual M.O.",
+      categoria: "Software",
+      tipo: "Software",
+      precio: "$99.00",
+    },
+    {
+      nombre: "Cámara Nikon",
+      descripcion: "Cámara Réflex",
+      categoria: "Fotografía",
+      tipo: "Hardware",
+      precio: "$600.00",
+    },
+    {
+      nombre: "Aire Acondicionado",
+      descripcion: "Split 18.000 BTU",
+      categoria: "Electrodomésticos",
+      tipo: "Producto",
+      precio: "$800.00",
+    },
+    {
+      nombre: "Silla Gamer",
+      descripcion: "Silla ergonómica",
+      categoria: "Muebles",
+      tipo: "Mueble",
+      precio: "$250.00",
+    },
+    {
+      nombre: "Teclado Logitech",
+      descripcion: "Teclado USB Básico",
+      categoria: "Accesorios",
+      tipo: "Hardware",
+      precio: "$25.00",
+    },
+    {
+      nombre: "Sofá 3 plazas",
+      descripcion: "Cuero color negro",
+      categoria: "Muebles",
+      tipo: "Mueble",
+      precio: "$500.00",
+    },
+    {
+      nombre: "Papel A4 500 hojas",
+      descripcion: "Papel para impresora",
+      categoria: "Papelería",
+      tipo: "Papelería",
+      precio: "$10.00",
+    },
+    {
+      nombre: "Papel A4 500 hojas",
+      descripcion: "Papel para impresora",
+      categoria: "Papelería",
+      tipo: "Papelería",
+      precio: "$10.00",
+    },
+    {
+      nombre: "Papel A4 500 hojas",
+      descripcion: "Papel para impresora",
+      categoria: "Papelería",
+      tipo: "Papelería",
+      precio: "$10.00",
+    },
+  ];
+  
+  export default inventario;
+  
