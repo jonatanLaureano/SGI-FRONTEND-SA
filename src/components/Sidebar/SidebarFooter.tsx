@@ -1,4 +1,4 @@
-import { IoSettingsSharp } from "react-icons/io5";
+// import { IoSettingsSharp } from "react-icons/io5";
 import { FaPowerOff } from "react-icons/fa";
 
 interface SidebarFooterProps {
@@ -9,12 +9,12 @@ interface SidebarFooterProps {
 const SidebarFooter = ({ isCollapsed, onLogout }: SidebarFooterProps) => {
   return (
     <div className="mt-auto">
-      <button
+      {/* <button
         className="flex items-center text-white w-full text-left p-4 hover:bg-selectB transition-colors duration-200"
       >
         <IoSettingsSharp className="mr-4" />
         {!isCollapsed && <span>Configuración</span>}
-      </button>
+      </button> */}
 
       <button
         onClick={onLogout}
